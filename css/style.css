@@ -1,0 +1,50 @@
+.none {
+	display: none;
+}
+table tr th,
+table tr td {
+	font-size: 1.2rem;
+}
+.row {
+	margin:20px 20px 20px 20px;
+	width: 100%;
+}
+.glyphicon {
+	font-size: 20px;
+}
+.glyphicon-plus {
+	float: right;
+}
+a.glyphicon {
+	text-decoration: none;
+	cursor: pointer;
+}
+.glyphicon-trash {
+	margin-left: 10px;
+}
+.alert {
+    width: 50%;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.title {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+input.ng-pristine {
+    border-color:#ec971f;
+}
+input.ng-touched.ng-invalid {
+    border-color:red;
+}
+input.ng-touched.ng-valid {
+    border-color:green;
+}
+.red {
+    color: red;
+}
